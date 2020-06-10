@@ -10,6 +10,7 @@ function App() {
     <BrowserRouter>
       {/* <Header /> */}
       <Routes />
+      <GlobalStyle />
     </BrowserRouter>
   );
 }
