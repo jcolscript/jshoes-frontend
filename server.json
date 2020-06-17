@@ -61,6 +61,42 @@
       "title": "Tênis de Caminhada Leve Confortável",
       "price": 179.9,
       "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Tênis Adidas Duramo Lite 2.0",
+      "price": 559.9,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Tênis Adidas Duramo Lite 2.0",
+      "price": 319.9,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Tênis Adidas Duramo Lite 2.0",
+      "price": 119.9,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Tênis Adidas Duramo Lite 2.0",
+      "price": 119.9,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Tênis Adidas Duramo Lite 2.0",
+      "price": 419.9,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Tênis Adidas Duramo Lite 2.0",
+      "price": 519.9,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
     }
   ]
 }
