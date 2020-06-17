@@ -6,6 +6,12 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   margin: 50px 0;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #141419;
+  flex: 1;
 `;
 
 export const Cart = styled(Link)`
