@@ -39,7 +39,7 @@ function Cart({ cart }) {
                   <input
                     type="number"
                     readOnly
-                    value={2}
+                    value={product.amount}
                     style={{ cursor: 'not-allowed' }}
                   />
                   <button type="button">
