@@ -25,17 +25,17 @@ export const Cart = styled(Link)`
   }
 
   div {
-    text-align: right;
-    margin-right: 10px;
-
-    strong {
-      display: block;
-      color: #fff;
-    }
+    text-align: center;
+    position: absolute;
+    top: 17px;
+    left: 96.7%;
+    background: #5063f0;
+    padding: 3px 8px;
+    border-radius: 50px;
 
     span {
       font-size: 12px;
-      color: #999;
+      color: #fff;
     }
   }
 `;
