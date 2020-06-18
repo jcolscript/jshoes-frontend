@@ -26,9 +26,9 @@ export const Cart = styled(Link)`
 
   div {
     text-align: center;
-    position: absolute;
-    top: 17px;
-    left: 96.7%;
+    position: relative;
+    top: -10px;
+    left: 83%;
     background: #5063f0;
     padding: 3px 8px;
     border-radius: 50px;
