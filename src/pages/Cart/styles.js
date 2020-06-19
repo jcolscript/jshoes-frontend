@@ -108,3 +108,39 @@ export const Total = styled.div`
 export const CheckoutActions = styled.div`
   align-content: space-evenly;
 `;
+
+export const CartEmpty = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #5063f0;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+
+  button {
+    background: none;
+    border: 3px solid #5063f0;
+    color: #5063f0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: background 0.2s;
+    margin-right: 4px;
+    &:hover {
+      border: 3px solid ${darken(0.03, '#5063f0')};
+      color: ${darken(0.03, '#5063f0')};
+    }
+  }
+`;
