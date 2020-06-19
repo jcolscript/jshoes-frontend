@@ -20,9 +20,21 @@ export const Container = styled.div`
       padding: 12px 20px;
       font-weight: bold;
       transition: background 0.2s;
+      margin-right: 4px;
+      border: 3px solid #5063f0;
 
       &:hover {
         background: ${darken(0.03, '#5063f0')};
+      }
+
+      &:nth-child(2) {
+        background: none;
+        border: 3px solid #5063f0;
+        color: #5063f0;
+        &:hover {
+          border: 3px solid ${darken(0.03, '#5063f0')};
+          color: ${darken(0.03, '#5063f0')};
+        }
       }
     }
   }
@@ -91,4 +103,8 @@ export const Total = styled.div`
     font-size: 28px;
     margin-left: 5px;
   }
+`;
+
+export const CheckoutActions = styled.div`
+  align-content: space-evenly;
 `;

@@ -6,14 +6,17 @@ import {
 } from 'react-icons/md';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import { useHistory } from 'react-router-dom';
 
 import { formatPrice } from '../../util/format';
 
 import * as CartActions from '../../store/modules/cart/actions';
 
-import { Container, ProductTable, Total } from './styles';
+import { Container, ProductTable, CheckoutActions, Total } from './styles';
 
 function Cart({ cart, total, removeFromCart, updateAmount }) {
+  const history = useHistory();
+
   function decrement(product) {
     updateAmount(product.id, product.amount - 1);
   }
@@ -76,7 +79,12 @@ function Cart({ cart, total, removeFromCart, updateAmount }) {
         </tbody>
       </ProductTable>
       <footer>
-        <button type="button">FINALIZAR PEDIDO</button>
+        <CheckoutActions>
+          <button type="button">FINALIZAR PEDIDO</button>
+          <button type="button" onClick={() => history.push('/')}>
+            ESCOLHER MAIS PRODUTOS
+          </button>
+        </CheckoutActions>
         <Total>
           <span>TOTAL</span>
           <strong>{total}</strong>
