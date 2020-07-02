@@ -6,7 +6,6 @@ import {
   MdShoppingCart,
 } from 'react-icons/md';
 import { useDispatch, useSelector } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import { useHistory } from 'react-router-dom';
 
 import { formatPrice } from '../../util/format';
